@@ -1,0 +1,6 @@
+{
+  "ruby.rubocop.executePath": "",
+  "ruby.rubocop.useBundler": false,
+  "ruby.rubocop.suppressRubocopWarnings": false,
+  "ruby.rubocop.onSave": false
+}

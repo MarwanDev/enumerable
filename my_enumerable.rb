@@ -1,14 +1,13 @@
 module MyEnumerable
-    def all?(&block)
+  def all?(&block)
       @list.all?(&block)
-    end
-  
-    def any?(&block)
+  end
+
+  def any?(&block)
       @list.any?(&block)
-    end
-  
-    def filter(&block)
-      @list.select(&block)
-    end
   end
   
+  def filter(&block)
+      @list.select(&block)
+  end
+end
